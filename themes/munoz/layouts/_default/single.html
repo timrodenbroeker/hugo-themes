@@ -1,0 +1,46 @@
+{{ define "main" }}
+
+
+
+{{ $image := .Params.featured_image }}
+
+  <main style="background: white;">
+  <header>
+    <div style="padding-top: 100px; margin-bottom: 2vw;">
+      <h1 style="line-height: 100%; color: #000000; text-align:center; font-weight: normal; font-size: calc(16px + 4vw);">
+        {{ .Title }}
+      </h1>
+    </div>
+  </header>
+
+    <section id="single" class="p-bot-50">
+      <div class="container" style="padding-top:75px;padding-bottom:75px;">
+        <div class="content p-10">
+          {{ .Content }}
+        </div>
+
+      </div>
+      
+    </div> 
+</section>
+</main>
+
+
+
+<script src='{{ "/js/medium-zoom.min.js" | relURL }}'></script>
+
+<script>
+
+
+
+mediumZoom(document.querySelectorAll('#single img.zoom'), {
+  margin: 100,
+
+})
+
+
+</script>
+
+{{ end }}
+
+

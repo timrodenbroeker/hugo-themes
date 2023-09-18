@@ -1,0 +1,13 @@
+name = "munoz"
+license = "MIT"
+licenselink = ""
+description = "Lightweight Hugo theme with a focus on content"
+homepage = ""
+demosite = ""
+tags = ["simple", "minimal", "clean", "fast", "blog", "responsive", "dark mode", "privacy"]
+features = ["fast", "blog", "syntax highlighting", "dark mode"]
+min_version = "0.41"
+
+[author]
+  name = "Tim Rodenbröker"
+  homepage = "https://timrodenbroeker.de"

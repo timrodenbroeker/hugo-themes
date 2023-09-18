@@ -1,0 +1,33 @@
+img {
+    width: 100%;
+}
+
+html, body {
+margin:0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: arial,sans-serif;    
+}
+
+.container {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+.p-10 {
+    padding: 10px;
+}
+.p-15 {
+    padding: 15px;
+}
+
+
+footer {
+    text-align: center;
+}
