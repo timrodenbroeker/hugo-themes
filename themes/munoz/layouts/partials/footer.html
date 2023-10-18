@@ -1,5 +1,5 @@
 <footer class="p-10">
-    <a href="/imprint">Imprint</a>
+  <a href="/imprint">Imprint</a> / <a href="/about">About</a>
 </footer>
 
 {{ range .Site.Params.customJS }} {{ if ( or ( hasPrefix . "http://" ) (
@@ -12,9 +12,9 @@ hasPrefix . "https://" ) ) }}
 {{ end }} {{ end }} {{ if .Page.Store.Get "hasMermaid" }}
 <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 <script>
-  mermaid.initialize({ 
+  mermaid.initialize({
     startOnLoad: true,
-    theme: 'basic'
+    theme: "basic",
   });
 </script>
 {{ end }}

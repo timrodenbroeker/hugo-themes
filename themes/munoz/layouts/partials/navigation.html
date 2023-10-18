@@ -1,14 +1,17 @@
 {{ $curr := .Page.RelPermalink }}
-<div style="width:100%;height:35px;"></div>
+<div></div>
 <nav id="main">
-    <div>
-        <a href="/">
-            {{.Site.Title}}
-        </a>
-    </div>
-
-    <div>
-        <a href="/about">About</a>
-    </div>
-
+  <div>
+    <a
+      style="
+        font-size: 20px;
+        font-weight: bold;
+        border-bottom: 3px solid black;
+        color: black;
+      "
+      href="/"
+    >
+      {{.Site.Title}}
+    </a>
+  </div>
 </nav>
